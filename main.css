@@ -20,11 +20,12 @@ body {
     border: 5px solid black;
     height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /*row-reverse, column, column-reverse, wrap, nowrap, wrap-reverse*/
     flex-wrap: wrap;
-    align-items: center;
     /*to align-items along cross axis*/
+    align-items: center;
+    /*to align-items along main axis*/
     justify-content: center;
   }
 
