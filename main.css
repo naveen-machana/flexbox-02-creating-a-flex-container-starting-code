@@ -18,7 +18,7 @@ body {
     background: white;
     padding: 10px;
     border: 5px solid black;
-    height: 500px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     /*row-reverse, column, column-reverse, wrap, nowrap, wrap-reverse*/
@@ -26,7 +26,7 @@ body {
     /*to align-items along cross axis*/
     align-items: center;
     /*to align-items along main axis*/
-    justify-content: center;
+    justify-content: flex-end;
   }
 
 .item-1 {
